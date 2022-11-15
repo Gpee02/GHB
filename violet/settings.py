@@ -140,7 +140,7 @@ LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/accounts/login"
 
 
-'''
+
 #Session + CSRF cookies only via HTTPS
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
@@ -154,7 +154,7 @@ SECURE_SSL_REDIRECT = True
 # Send only top domain as referred
 SECURE_REFERRER_POLICY = "strict-origin"
 
-SECURE_BROWSER_XSS_FILTER = True'''
+SECURE_BROWSER_XSS_FILTER = True
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
